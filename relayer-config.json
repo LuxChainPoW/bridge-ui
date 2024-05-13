@@ -1,0 +1,36 @@
+{
+  "chains": [
+    {
+      "name": "BSC",
+      "type": "ethereum",
+      "id": "97",
+      "endpoint": "https://data-seed-prebsc-1-s1.binance.org:8545",
+      "from": "0xF1d05a39BBC69BCb62835FCeBD16d87B79508F30",
+      "opts": {
+        "bridge": "0xe3F6D4EAEDDCBCe98932F7e1398C5ADb9336e874",
+        "erc20Handler": "0xe4821f1244e1846a48cB7Bd21f74335AbC9e207f",
+        "genericHandler": "0xe4821f1244e1846a48cB7Bd21f74335AbC9e207f",
+        "gasLimit": "1000000",
+        "maxGasPrice": "10000000000",
+		"http": "true",
+		"startBlock": "13681180"
+      }
+    },
+    {
+      "name": "XLC",
+      "type": "ethereum",
+      "id": "0",
+      "endpoint": "https://rpc.liquidchain.net",
+      "from": "0xF1d05a39BBC69BCb62835FCeBD16d87B79508F30",
+      "opts": {
+        "bridge": "0xf969b23bAfbF3869c2509Faa1bEe4d15774a3f5c",
+        "erc20Handler": "0x94E4053D7a795d84728625Ca678E56537A160279",
+        "genericHandler": "0x94E4053D7a795d84728625Ca678E56537A160279",
+        "gasLimit": "1000000",
+        "maxGasPrice": "1000000000",
+		"http": "true",
+		"startBlock": "15000"
+      }
+    }
+  ]
+}
